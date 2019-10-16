@@ -1,0 +1,107 @@
+@start
+	*say
+		Hello!
+	*then
+		hear go to scene start_1 {
+			-> start_1
+		}
+
+@start_1
+	*say
+		Hi I'm Alexa. I'm Amazon’s cloud-based artificial voice assistance. 
+	*then
+		hear go to scene start_1_1 {
+			-> start_1_1
+		}
+
+@start_1_1
+	*say
+		Let's do a quick introduction first. We can start with the person standing on the right. 
+	*then
+		hear go to scene start_1_1_1 {
+			-> Team
+		}
+
+@Team
+	*say
+		Thanks everyone! I'm sure you have a lot to share with our audience today. I'll let the team to take over from here. 
+	*then
+		hear go to scene start_1_1_1_1 {
+			-> start_1_1_1_1
+		}
+
+@start_1_1_1_1
+	*say
+		Yes it's important that this product is polished and ready to ship. 
+	*then
+		hear go to scene start_1_1_1_1_1 {
+			-> Echo
+		}
+@Echo
+	*say
+		Amazon echo is my flagship smart speaker. You are talking to me through it right now. 
+	*then
+		hear go to scene start_1_1_1_1_1_1 {
+			-> GrowUpASim
+		}
+
+@GrowUpASim
+	*say
+		What career? What character? Can I make Lily a 80 year-old lady, learn wingsuit fly, and then win the world champion?
+	*then
+		hear go to scene start_1_1_1_1_1_1_1 {
+			-> GrowUpASim2
+		}
+
+@GrowUpASim2
+	*say
+		But I do like the generating character part. It sounds like sim ish.
+	*then
+		hear go to scene start_1_1_1_1_1_1_1_1 {
+			-> Simulation
+		}
+
+@Simulation
+	*say
+		Cool, has potential. But attaching only to environments?
+	*then
+		hear go to scene start_1_1_1_1_1_1_1_1_1 {
+			-> Responsive
+		}
+
+@Responsive
+	*say
+		How many people are there in the market have smart home light bulb? You want my client to lose potential players? Think smart! Abandon this idea!
+	*then
+		hear go to scene start_1_1_1_1_1_1_1_1_1_1 {
+			-> Quarters
+		}
+
+@Quarters
+	*say
+		You know I can't play audio clip longer than 4 minutes, right?
+	*then
+		hear go to scene Quarters_1 {
+			-> no way
+		}
+
+@no way
+	*say
+		No way.
+	*then
+		hear go to scene Quarters_1_1 {
+			-> Prototype1
+		}
+
+@Prototype1
+	*say
+		Warning warning, don’t expose my secret to outsiders. Say it out with me: Alexa has no emotions.
+	*then
+		hear go to scene Prototype1_1 {
+			-> Direction
+		}
+
+@Direction
+	*say
+		Sounds reasonable, and, do-able.
+
