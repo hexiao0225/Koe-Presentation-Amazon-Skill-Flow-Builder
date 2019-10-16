@@ -2,44 +2,28 @@
 	*say
 		Hello!
 	*then
-		hear go to scene start_1 {
+				hear next {
 			-> start_1
 		}
 
 @start_1
 	*say
-		Hi I'm Alexa. I'm Amazon’s cloud-based artificial voice assistance. 
+		Hi I'm Alexa. I'm Amazon’s cloud-based artificial voice assistance. Don't make that face, I know I'm cool.
 	*then
 		hear go to scene start_1_1 {
 			-> start_1_1
 		}
-
 @start_1_1
 	*say
-		Let's do a quick introduction first. We can start with the person standing on the right. 
+		You should do a quick introduction first. We can start with the person standing on the right.
 	*then
-		hear go to scene start_1_1_1 {
-			-> Team
-		}
-
-@Team
-	*say
-		Thanks everyone! I'm sure you have a lot to share with our audience today. I'll let the team to take over from here. 
-	*then
-		hear go to scene start_1_1_1_1 {
-			-> start_1_1_1_1
-		}
-
-@start_1_1_1_1
-	*say
-		Yes it's important that this product is polished and ready to ship. 
-	*then
-		hear go to scene start_1_1_1_1_1 {
+				hear echo {
 			-> Echo
 		}
+
 @Echo
 	*say
-		Amazon echo is my flagship smart speaker. You are talking to me through it right now. 
+		Amazon echo is my flagship smart speaker. You are talking to me through it right now. You idiot!
 	*then
 		hear go to scene start_1_1_1_1_1_1 {
 			-> GrowUpASim
