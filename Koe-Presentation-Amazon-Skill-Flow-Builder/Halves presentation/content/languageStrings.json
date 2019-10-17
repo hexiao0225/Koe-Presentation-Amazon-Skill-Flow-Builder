@@ -1,14 +1,16 @@
 {
     "en-US": {
         "translation": {
-            "start.narration": "Hello!",
+            "start.narration": "Hi there, I'm Alexa.",
             "utterance-next": "next",
-            "start_1.narration": "Hi I'm Alexa. I'm Amazon’s cloud-based artificial voice assistance.",
+            "start_1.narration": "I'm Alexa, Amazon’s cloud-based artificial voice assistance. Don't make that face. You guys must not do it without me.",
             "utterance-go to scene start_1_1": "go to scene start_1_1",
-            "start_1_1.narration": "You should do a quick introduction first. We can start with the person standing on the right.",
+            "Shipable.narration": "Shippable, the product needs to be shippable.",
             "utterance-echo": "echo",
             "Echo.narration": "Amazon echo is my flagship smart speaker. You are talking to me through it right now. You idiot!",
-            "utterance-go to scene start_1_1_1_1_1_1": "go to scene start_1_1_1_1_1_1",
+            "utterance-go to scene Echo_1": "go to scene Echo_1",
+            "Platform.narration": "My pleasure.",
+            "utterance-sim": "sim",
             "GrowUpASim.narration": "What career? What character? Can I make Lily a 80 year-old lady, learn wingsuit fly, and then win the world champion?",
             "utterance-go to scene start_1_1_1_1_1_1_1": "go to scene start_1_1_1_1_1_1_1",
             "GrowUpASim2.narration": "But I do like the generating character part. It sounds like sim ish.",
@@ -20,7 +22,10 @@
             "Quarters.narration": "You know I can't play audio clip longer than 4 minutes, right?",
             "utterance-go to scene Quarters_1": "go to scene Quarters_1",
             "no way.narration": "No way.",
-            "utterance-go to scene Quarters_1_1": "go to scene Quarters_1_1",
+            "utterance-go to scene no way_1": "go to scene no way_1",
+            "prototype grow.narration": "Will I come back to the game later? Or I’m done after I’m done.",
+            "utterance-go to scene prototype grow_1": "go to scene prototype grow_1",
+            "prototype party.narration": "You don’t understand how many hilarious words that I needed to remember.  Really! Is there someone has two dogs a snake and a parakeet?",
             "Prototype1.narration": "Warning warning, don’t expose my secret to outsiders. Say it out with me: Alexa has no emotions.",
             "utterance-go to scene Prototype1_1": "go to scene Prototype1_1",
             "Direction.narration": "Sounds reasonable, and, do-able."

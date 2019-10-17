@@ -1,23 +1,24 @@
 @start
 	*say
-		Hello!
+		Hi there, I'm Alexa.
 	*then
-				hear next {
+		hear next {
 			-> start_1
 		}
 
 @start_1
 	*say
-		Hi I'm Alexa. I'm Amazon’s cloud-based artificial voice assistance. Don't make that face, I know I'm cool.
+		I'm Alexa, Amazon’s cloud-based artificial voice assistance. Don't make that face. You guys must not do it without me.
 	*then
 		hear go to scene start_1_1 {
-			-> start_1_1
+			-> Shipable
 		}
-@start_1_1
+
+@Shipable
 	*say
-		You should do a quick introduction first. We can start with the person standing on the right.
+		Shippable, the product needs to be shippable.
 	*then
-				hear echo {
+		hear echo {
 			-> Echo
 		}
 
@@ -25,7 +26,15 @@
 	*say
 		Amazon echo is my flagship smart speaker. You are talking to me through it right now. You idiot!
 	*then
-		hear go to scene start_1_1_1_1_1_1 {
+		hear go to scene Echo_1 {
+			-> Platform
+		}
+
+@Platform
+	*say
+		My pleasure.
+	*then
+		hear sim {
 			-> GrowUpASim
 		}
 
@@ -73,7 +82,23 @@
 	*say
 		No way.
 	*then
-		hear go to scene Quarters_1_1 {
+		hear go to scene no way_1 {
+			-> prototype grow
+		}
+
+@prototype grow
+	*say
+		Will I come back to the game later? Or I’m done after I’m done.
+	*then
+		hear go to scene prototype grow_1 {
+			-> prototype party
+		}
+
+@prototype party
+	*say
+		You don’t understand how many hilarious words that I needed to remember.  Really! Is there someone has two dogs a snake and a parakeet?
+	*then
+		hear next {
 			-> Prototype1
 		}
 
@@ -88,4 +113,11 @@
 @Direction
 	*say
 		Sounds reasonable, and, do-able.
+	*then
+		hear go to scene Direction_1 {
+			-> Summary
+		}
 
+@Summary
+	*say
+		Thanks!
